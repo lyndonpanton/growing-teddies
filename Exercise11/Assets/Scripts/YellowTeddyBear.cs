@@ -15,5 +15,7 @@ public class YellowTeddyBear : MonoBehaviour
 
         newScale.x *= 4;
         newScale.y *= 4;
+
+        transform.localScale = newScale;
     }
 }
